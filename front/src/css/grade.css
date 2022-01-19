@@ -1,13 +1,27 @@
-.bCute{
+#mainDivGrade{
+    border: 2px solid #0c4643;
+    stroke-dasharray: 3,3;
+    
+    background-color: rgba(204, 153, 0, 0.7);
+    width: 400px;
+    display: inline-block;
+    margin: 0px auto;
+    margin-top:30px;
+}
+#grade{
+   color:'#ccffff';
+    height: 20px;
+}
+
+#bNota{
     display: inline;
     font-style: italic;
     justify-content: 'center';
     align-items: 'center';
-   width:180px;
+   width:150px;
     margin:10px;
-    margin-top:5px;
+    margin-top:30px;
     height: 30px;
-    border-radius: 6px;
     border-radius: 25px;
     border: 3px solid rgb(76, 80, 80);
     text-align: center;
@@ -15,6 +29,6 @@
     background-color: #ffff66;
     font-family: 'Consolas';
 }
-.bCute:hover{
+#bNota:hover{
     background-color: #cc9900;
 }
