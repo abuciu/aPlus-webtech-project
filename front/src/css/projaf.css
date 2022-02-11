@@ -1,0 +1,62 @@
+
+#mainDivProjaf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    min-height: 50vh;
+    max-width: 80vh;
+    margin: auto;
+    font-family: 'Consolas';
+    font-size: 50 px;
+    background-color: rgba(204, 153, 0, 0.7);
+    border-radius: 25px;
+    border: solid 3px rgb(76, 80, 80);
+}    
+
+
+.lProjectAddForm{
+    height: 30px;
+    justify-content: 'start';
+    align-items: 'start';
+   margin: 10px;
+   font-size: 20px;
+   font-family: 'Consolas';
+   float:left;
+   clear:right;
+   display:block; 
+}
+
+.cProjectAddForm{
+    justify-content: 'start';
+    align-items: 'start';
+    margin:10px;
+    height: 30px;
+    border-radius: 4px;
+    font-family: 'Consolas';
+    font-size:18px;
+  transition: 0.3s all;
+  background-color: #ffff66;
+  float:right;
+  display:block;
+}
+#bAddProj{
+    display: inline;
+    font-style: italic;
+    justify-content: 'center';
+    align-items: 'center';
+   width:180px;
+    margin:10px;
+    margin-top:30px;
+    height: 30px;
+    border-radius: 25px;
+    border: 3px solid rgb(76, 80, 80);
+    text-align: center;
+    font-size:18px;
+    background-color: #ffff66;
+    font-family: 'Consolas';
+}
+#bAddProj:hover{
+    background-color: #cc9900;
+}
