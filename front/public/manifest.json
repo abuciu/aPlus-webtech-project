@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "short_name": "React App",
   "name": "Create React App Sample",
+=======
+  "short_name": "Aplus",
+  "name": "Anonymous grading app",
+>>>>>>> c130bf3b7239cf263412374847157e70e34dcd9f
   "icons": [
     {
       "src": "favicon.ico",
